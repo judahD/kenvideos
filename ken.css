@@ -18,3 +18,24 @@ body{
 i{
 	margin-right: 10px;
 }
+#home{
+	background-color: #cc181e;
+	color: #FFFFFF;
+	/*text-decoration: none;*/
+	display: block;
+	/*padding: 4px 0px 4px 17px;*/
+
+}
+.sub{
+	margin-left: 20px;
+	color: #222;
+	padding: 4px 0px 4px 17px;
+	line-height: 28px;
+}
+.sub:hover{
+	background-color: #222;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+
+}
