@@ -1,5 +1,12 @@
-#red{
-	color: red;  
+.red{
+	width: 155px;
+    color: #cc181e;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: block;
+    padding-left: 19px;
+}  
 }
 .hmm{
 	margin-left: 35px;
@@ -31,11 +38,19 @@ i{
 	color: #222;
 	padding: 4px 0px 4px 17px;
 	line-height: 28px;
+	display: block;
 }
 .sub:hover{
 	background-color: #222;
 	color: #FFFFFF;
 	text-decoration: none;
-	display: block;
-
+}
+#tee{
+	text-overflow: ellipsis;
+}
+img{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	
 }
