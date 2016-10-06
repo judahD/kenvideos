@@ -8,12 +8,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<!--link rel="stylesheet" type="text/css" href="bootstrap.css"-->
-	<link rel="stylesheet" type="text/css" href="ken.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="ken.css">
 	
 	<title>kenProg</title>
-
+<style>
+.line{
+  border-right: 1px solid #c5bdbd;
+}
+</style>
 </head>
 <body>
 <!--nav class="navbar navbar-inverse">
@@ -47,7 +51,7 @@
     </div>
   </div>
 </nav-->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default up">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -79,21 +83,18 @@
         </li>
       </ul-->
       <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Search</button>
-      </form>
-      <div class="nav navbar-nav navbar-right">
-      <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a href="#">Sign up</a></li>
-      </ul>
-      </div>
+        <div class="box">
+          <div class="container-4">
+              <input type="text" id="search" placeholder="Search..." />
+                <button title="Search" class="icon"><i class="fa fa-search"></i></button>
+                <button type="button" class="btn btn-default me"> Upload</button>
+                <i class="fa fa-bell-o you" aria-hidden="true"></i>
+
     </div><!-- /.navbar-collapse -->
  <!-- /.container-fluid -->
 </nav>
-<div class="col-md-12">
-   <div class="col-md-2">
+<!--<div class="col-md-12">-->
+   <div class="line col-md-2" >
        <ul class="list-unstyled">
         <li><a id="home" title="Home" class="sub" href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
         <li><a class="sub" title="My Channel" href="#"><i class="fa fa-user" aria-hidden="true"></i>My Channel</a></li>
@@ -118,9 +119,9 @@
             <li><a class="sub" title="Pulse Ghana" href="#"><img src="pulsetv.jpg"> Pulse Ghana</a></li>
             <li><a class="sub" title="DrakeVEVO" href="#"><img src="drake.jpg"> DrakeVEVO</a></li>
             <li><a class="sub" title="poetry Tinz" href="#"><img src="poetry.jpg"> Poetry Tinz</a></li>
-            <li><a class="sub" title="The X Factor UK" href="#"><img src="XFactorTitles.jpg"> The X Factor UK<span class="pull-right"> 53</span></a></li>
-            <li><a class="sub" title="LabrinthVEVO" href="#"><img src="labrinth.jpg"> LabrinthVEVO<span class="pull-right"> 1</span></a></li>
-            <li><a class="sub" title="Omarionmmg" href="#"><img src="omarion.jpg"> Omarionmmg</a><span class="pull-right"> 1</span></li>
+            <li><a class="sub" title="The X Factor UK" href="#"><img src="XFactorTitles.jpg"> The X Factor UK<span class="pull-right job"> 53</span></a></li>
+            <li><a class="sub" title="LabrinthVEVO" href="#"><img src="labrinth.jpg"> LabrinthVEVO<span class="pull-right job"> 1</span></a></li>
+            <li><a class="sub" title="Omarionmmg" href="#"><img src="omarion.jpg"> Omarionmmg</a><span class="pull-right job"> 1</span></li>
             <li><a class="sub" title="Bruno Mars" href="#"><img src="BrunoMars.jpg"> Bruno Mars</a></li>
             <li><a class="sub" title="Tyler Susan" href="#"><img src="t.png"> Tyler Susan</a></li>
           </ul>
@@ -128,14 +129,15 @@
         <hr>
         <div>  
           <ul class="list-unstyled">
-            <li><a class="sub" title="Watch Later" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> Browse channels</a></li>
+            <li><a class="sub" title="Browse Channels" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> Browse channels</a></li>
           </ul>  
-    
-      </div>
+        </div>
+    <!--</div>-->
+    <div class="col-md-10">
+          
+        
+  
     </div>
-   <div class="col-md-10">
-     
-   </div>
 </div>
 
 
